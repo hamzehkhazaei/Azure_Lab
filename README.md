@@ -18,12 +18,13 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-<img title="" alt="" src="/images/login.png">
+<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png">
 
 1. Sign in using your school account to complete the registration.
 
-    > [!NOTE]
-    > A Microsoft account is required for using Azure Lab Services. If you are trying to use your non-Microsoft account such as Yahoo or Google accounts to sign in to the portal, follow instructions to create a Microsoft account that will be linked to your non-Microsoft account email. Then, follow the steps to complete the registration process.
+    **NOTE:** A YorkU account is required for using Azure Lab Services. 
+
+
 2. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
     :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/accessible-vms.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.":::
 3. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
