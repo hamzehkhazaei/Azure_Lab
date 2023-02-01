@@ -18,18 +18,19 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" max-width="80%" height="auto" >
+<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" max-width="20%" >
 
 2. Sign in using your YorkU account to complete the registration.
 
-<!-- <center> <img title="" alt="Click on Sign in to go to the login page" src="/images/username.png" width="500" > </center> -->
-<!-- <div style="text-align:center"><img src="/images/username.png" width="500"/></div> -->
-    <p align="center">   <img src="/images/username.png" alt=""/> </p>
+<img title="" alt="Click on Sign in to go to the login page" src="/images/username.png" width="500" >
 
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
-    :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/accessible-vms.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.":::
-4. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
+
+<img title="" alt="Click on Sign in to go to the login page" src="/images/lab1.png" width="500" >
+
+    
+1. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
     2. To its right, you see the icon representing the **operating system (OS)** of the VM. In this example, it's Windows.
     3. The progress bar on the tile shows the number of hours used against the number of [quota hours](how-to-configure-student-usage.md#set-quotas-for-users) assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
