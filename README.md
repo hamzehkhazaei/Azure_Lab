@@ -18,8 +18,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-[![Alt text](https://github.com/hamzehkhazaei/Azure_Lab/blob/main/images/login.png "")]
-
+<img title="" alt="" src="/images/login.png">
 
 1. Sign in using your school account to complete the registration.
 
