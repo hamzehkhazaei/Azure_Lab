@@ -20,14 +20,14 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png">
 
-1. Sign in using your school account to complete the registration.
+2. Sign in using your YorkU account to complete the registration.
 
-    **NOTE:** A YorkU account is required for using Azure Lab Services. 
+<img title="" alt="Click on Sign in to go to the login page" src="/images/username.png">
 
 
-2. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
+3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
     :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/accessible-vms.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.":::
-3. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
+4. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
     2. To its right, you see the icon representing the **operating system (OS)** of the VM. In this example, it's Windows.
     3. The progress bar on the tile shows the number of hours used against the number of [quota hours](how-to-configure-student-usage.md#set-quotas-for-users) assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
