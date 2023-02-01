@@ -18,11 +18,11 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" max-width="80%" height="auto">
+<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" max-width="80%" height="auto" >
 
 2. Sign in using your YorkU account to complete the registration.
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/username.png">
+<img title="" alt="Click on Sign in to go to the login page" src="/images/username.png" max-width="60%" height="auto">
 
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
