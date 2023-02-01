@@ -18,7 +18,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" width="500" >
+<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
 
 2. Sign in using your YorkU account to complete the registration.
 
