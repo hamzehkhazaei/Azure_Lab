@@ -1,11 +1,11 @@
----
-title: Access a lab in Azure Lab Services | Microsoft Docs adopted by Hamzeh Khazaei @ EECS department at York University 
-description: In this tutorial, students access to the cluster of virtual machines in the EECS4222-lab that's set up by EECS TECH Team. 
-topic: Tutorial
-date: 01/02/2023
----
+<!-- ---
+Title: Access a lab in Azure Lab Services 
+Description: In this tutorial, students access to the cluster of virtual machines in the EECS4222-lab
+Topic: Tutorial
+Date: 01/02/2023
+--- -->
 
-# Tutorial: Access a lab in Azure Lab Services
+# Tutorial: Access the EECS4222 lab in Azure Lab Services
 
 In this tutorial, you, as a student, connect to a your cluster of virtual machines (VM) in a lab by completing the following actions in the Lab Services web portal: [https://labs.azure.com](https://labs.azure.com):
 
@@ -33,7 +33,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 1. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
     2. To its right, you see the icon representing the **operating system (OS)** of the VM. In this example, it's Windows.
-    3. The progress bar on the tile shows the number of hours used against the number of [quota hours](how-to-configure-student-usage.md#set-quotas-for-users) assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
+    3. The progress bar on the tile shows the number of hours used against the number of [quota hours] assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
     4. You see icons and buttons at the bottom of the tile to start, stop, and connect to the VM.
     5. To the right of the buttons, you see the status of the VM. Confirm that you see the status of the VM is **Stopped**.
         :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/vm-in-stopped-state.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.  VM state toggle with stopped label is highlighted.":::
@@ -56,6 +56,3 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 ## Next steps
 
 In this tutorial, you accessed a lab using the registration link you got from your educator.  When done with the VM, stop the VM from the Azure Lab Services portal.
-
->[!div class="nextstepaction"]
->[Stop the VM](how-to-use-lab.md#start-or-stop-the-vm)
