@@ -27,7 +27,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/lab1.png" width="500" >
+<img title="" alt="Click on Sign in to go to the login page" src="/images/eecs4222-lab.png" width="500" >
 
     
 1. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
