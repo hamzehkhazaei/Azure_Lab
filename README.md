@@ -45,7 +45,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 2. Confirm that the status of the VM is set to **Running**.
     
 
-## Connect to the VM
+## Connect to the Windows VM (Cluster Head)
 
 1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
    1. Download the RDP Desktop for your laptop. It is available for operating systems.
@@ -57,21 +57,21 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
- 
+ ## Connect to the Ubuntu Servers
 
-1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see all 3 Ubuntu VMs that are running.
+1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running.
 
 2. Here is the information of these three VMs:
 
-    | Name         | IP Address |
-    | :----------  | :----------- |
-    | Server1     | 192.168.0.100   |
-    | Server2     | 192.168.0.101   |
-    | Server3     | 192.168.0.102   |
+    | Name         | IP Address      |
+    | :-------     | :------------   |
+    | server1      | 192.168.0.100   |
+    | server2      | 192.168.0.101   |
+    | server3      | 192.168.0.102   |
 
-## Connect to Ubuntu VMs
-1. Open the terminal in the Windows machine, i.e., cmd.exe, program.
-2. From there `ssh` to the Server1 by running: `ssh eecs@192.168.0.100`
+
+3. Open the terminal in the Windows machine, i.e., cmd.exe, program.
+4. From there `ssh` to the Server1 by running: `ssh eecs@192.168.0.100`
    1. The password for `eecs` user have been posted to your by the instructor.
    2. Repeat step 1 for server2 and server3 as well.
    3. At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
