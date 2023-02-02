@@ -36,23 +36,48 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
     3. The progress bar on the tile shows the number of hours used against the number of [quota hours] assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
     4. You see icons and buttons at the bottom of the tile to start, stop, and connect to the VM.
     5. To the right of the buttons, you see the status of the VM. Confirm that you see the status of the VM is **Stopped**.
-        :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/vm-in-stopped-state.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.  VM state toggle with stopped label is highlighted.":::
+        
 
 ## Start the VM
 
 1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
-    :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/start-vm.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.  VM state toggle with starting label is highlighted.":::
-1. Confirm that the status of the VM is set to **Running**.
-    :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/vm-running.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal.  VM state toggle with running label is highlighted.":::
+    
+2. Confirm that the status of the VM is set to **Running**.
+    
 
 ## Connect to the VM
 
-1. Select the button in the lower right of the tile as shown in the following image to connect to the lab's VM.
-    :::image type="content" source="./media/tutorial-connect-vm-in-classroom-lab/connect-vm.png" alt-text="Screenshot of My virtual machines page in Azure Lab Services portal. Connect VM button is highlighted.":::
-1. Do one of the following steps:
-    1. For **Windows** virtual machines, open the **RDP** file once it has finished downloading. Use the **username** and **password** you get from your educator to sign in to the machine. For more information, see [Connect to a Windows lab VM](connect-virtual-machine.md#connect-to-a-windows-lab-vm).
-    2. For **Linux** virtual machines, you can use **SSH** or **RDP** (if it's enabled) to connect to them. For more information, see [Connect to a Linux lab VM](connect-virtual-machine.md#connect-to-a-linux-lab-vm).
+1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
+   1. Download the RDP Desktop for your laptop. It is available for operating systems.
+   2. Open the RDP desktop program and then drag the RDP config file toward the program.
+   3. You should see a PC created in your RDP Desktop.
+   4. Before starting you VM from RDP desktop make sure your VM is in **Running** state.
+   5. Then double click on the new remote PC that you created in RDP desktop.
+   6. It should ask for username and password that you already received from the instructor.
+
+Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
+
+ 
+
+1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see all 3 Ubuntu VMs that are running.
+
+2. Here is the information of these three VMs:
+
+    | Name         | IP Address |
+    | :----------  | :----------- |
+    | Server1     | 192.168.0.100   |
+    | Server2     | 192.168.0.101   |
+    | Server3     | 192.168.0.102   |
+
+## Connect to Ubuntu VMs
+1. Open the terminal in the Windows machine, i.e., cmd.exe, program.
+2. From there `ssh` to the Server1 by running: `ssh eecs@192.168.0.100`
+   1. The password for `eecs` user have been posted to your by the instructor.
+   2. Repeat step 1 for server2 and server3 as well.
+   3. At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
+
+These Ubuntu VMs are the machines that you need to use to do your projects. 
 
 ## Next steps
 
-In this tutorial, you accessed a lab using the registration link you got from your educator.  When done with the VM, stop the VM from the Azure Lab Services portal.
+In this tutorial, you accessed a lab using the registration link you got from your educator.  When you are done, close the RDP program so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
