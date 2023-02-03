@@ -69,13 +69,11 @@ Here you will be connected the Windows VM which in fact acts as the cluster head
 
 Here is the information of these three VMs:
 
-<div align="center">
 | Name         | IP Address      |
 | :-------     | :------------   |
 | server1      | 192.168.0.100   |
 | server2      | 192.168.0.101   |
 | server3      | 192.168.0.102   |
-</div>
 
 2. Open the terminal in the Windows machine, i.e., cmd.exe, program.
 3. From there `ssh` to the *server1* by running: `ssh eecs@192.168.0.100`
