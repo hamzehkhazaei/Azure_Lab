@@ -7,7 +7,7 @@ Date: 01/02/2023
 
 # Tutorial: Access the EECS4222 lab in Azure Lab Services
 
-In this tutorial, you, as a student, connect to a your cluster of virtual machines (VM) in a lab by completing the following actions in the Lab Services web portal: [https://labs.azure.com](https://labs.azure.com):
+In this tutorial, you, as a student, connect to your cluster of virtual machines (VM) in a lab by completing the following actions in the Lab Services web portal: [https://labs.azure.com](https://labs.azure.com):
 
 - [x] Register to the lab
 - [x] Start the Cluster
