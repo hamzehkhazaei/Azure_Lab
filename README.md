@@ -43,7 +43,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
 
-    <img title="" alt="" src="/images/lab-lab-starting.png" width="500" >
+    <img title="" alt="" src="/images/lab-starting.png" width="500" >
     
 2. Confirm that the status of the VM is set to **Running**.
     
