@@ -43,8 +43,8 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
     <img title="" alt="" src="/images/lab-starting.png" width="500" >
     
 2. Confirm that the status of the VM is set to **Running**.
-    
-    <img title="" alt="" src="/images/lab-running.png" width="500" >
+   
+   <img title="" alt="" src="/images/lab-running.png" width="500" >
 
 ## Connect to the Windows VM (Cluster Head)
 In order to connect to your Cluster head which is a Windows machine do the followings:
