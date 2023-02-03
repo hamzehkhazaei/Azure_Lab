@@ -22,12 +22,12 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 2. Sign in using your YorkU account to complete the registration.
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/username.png" width="500" >
+<img title="" alt="Enter your York username" src="/images/username.png" width="500" >
 
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/eecs4222-lab.png" width="500" >
+<!-- <img title="" alt="Click on Sign in to go to the login page" src="/images/eecs4222-lab.png" width="500" > -->
     
 1. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
@@ -36,18 +36,26 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
     4. You see icons and buttons at the bottom of the tile to start, stop, and connect to the VM.
     5. To the right of the buttons, you see the status of the VM. Confirm that you see the status of the VM is **Stopped**.
         
+    <img title="" alt="" src="/images/lab-stopped.png" width="500" >
+
 
 ## Start the VM
 
 1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
+
+    <img title="" alt="" src="/images/lab-lab-starting.png" width="500" >
     
 2. Confirm that the status of the VM is set to **Running**.
     
+    <img title="" alt="" src="/images/lab-running.png" width="500" >
 
 ## Connect to the Windows VM (Cluster Head)
 In order to connect to your Cluster head which is a Windows machine do the followings:
 
 1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
+
+  <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
+
 2. Download and install the RDP Desktop for your laptop. It is available for all operating systems. 
 3. Open the RDP desktop program and then drag the RDP configuration file toward the program.
 4. You should see a PC created in your RDP Desktop like the following:
