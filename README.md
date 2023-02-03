@@ -69,7 +69,7 @@ In order to connect to your Cluster head which is a Windows machine do the follo
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
-    <img title="" alt="" src="/images/win1.png" >
+<img title="" alt="" src="/images/win1.png" >
 
  ## Connect to the Ubuntu Servers
 
