@@ -44,7 +44,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
     
 2. Confirm that the status of the VM is set to **Running**.
    
-   <img title="" alt="" src="/images/lab-running.png" width="500" >
+    <img title="" alt="" src="/images/lab-running.png" width="500" >
 
 ## Connect to the Windows VM (Cluster Head)
 In order to connect to your Cluster head which is a Windows machine do the followings:
@@ -62,7 +62,7 @@ In order to connect to your Cluster head which is a Windows machine do the follo
 5. Before starting you VM from RDP desktop make sure your VM is in **Running** state.
 6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password that you already received from the instructor.
    
-    <img title="" alt="" src="/images/rdp-login.png" width="500" >
+    <img title="" alt="" src="/images/rdp-login.png" width="500">
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
@@ -70,7 +70,7 @@ Here you will be connected the Windows VM which in fact acts as the cluster head
 
  ## Connect to the Ubuntu Servers
 
-1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.
+1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.  
 
 <img title="" alt="" src="/images/hyperv.png">
 
