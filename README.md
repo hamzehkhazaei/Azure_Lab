@@ -18,7 +18,7 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-    <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
+   <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
 
 2. Sign in using your YorkU account to complete the registration.
    
@@ -33,46 +33,46 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
     4. You see icons and buttons at the bottom of the tile to start, stop, and connect to the VM.
     5. To the right of the buttons, you see the status of the VM. Confirm that you see the status of the VM is **Stopped**.
         
-    <img title="" alt="" src="/images/lab-stopped.png" width="500" >
+   <img title="" alt="" src="/images/lab-stopped.png" width="500" >
 
 
 ## Start the VM
 
 1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
 
-    <img title="" alt="" src="/images/lab-starting.png" width="500" >
+   <img title="" alt="" src="/images/lab-starting.png" width="500" >
     
 2. Confirm that the status of the VM is set to **Running**.
    
-    <img title="" alt="" src="/images/lab-running.png" width="500" >
+   <img title="" alt="" src="/images/lab-running.png" width="500" >
 
 ## Connect to the Windows VM (Cluster Head)
 In order to connect to your Cluster head which is a Windows machine do the followings:
 
 1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
 
-  <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
+   <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
 
 2. Download and install the RDP Desktop for your laptop. It is available for all operating systems. 
 3. Open the RDP desktop program and then drag the RDP configuration file toward the program.
 4. You should see a PC created in your RDP Desktop like the following:
    
-    <img title="" alt="" src="/images/rdp1.png">
+   <img title="" alt="" src="/images/rdp1.png">
 
 5. Before starting you VM from RDP desktop make sure your VM is in **Running** state.
 6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password that you already received from the instructor.
    
-    <img title="" alt="" src="/images/rdp-login.png" width="500">
+   <img title="" alt="" src="/images/rdp-login.png" width="500">
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
-<img title="" alt="" src="/images/win1.png" >
+   <img title="" alt="" src="/images/win1.png" >
 
  ## Connect to the Ubuntu Servers
 
 1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.  
 
-<img title="" alt="" src="/images/hyperv.png">
+   <img title="" alt="" src="/images/hyperv.png">
 
 Here is the information of these three VMs:
 
