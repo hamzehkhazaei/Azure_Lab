@@ -69,6 +69,8 @@ In order to connect to your Cluster head which is a Windows machine do the follo
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
+    <img title="" alt="" src="/images/win1.png" >
+
  ## Connect to the Ubuntu Servers
 
 1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.
