@@ -88,7 +88,7 @@ Here is the information of these three VMs:
    - Repeat step 1 for server2 and server3 as well.
    - At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
 
-<img title="" alt="" src="/images/cmd2.png">
+   <img title="" alt="" src="/images/cmd2.png">
 
 These Ubuntu VMs are the machines that you need to use to do your projects. 
 
