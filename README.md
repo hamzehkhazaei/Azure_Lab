@@ -76,10 +76,10 @@ Here is the information of these three VMs:
 | server3      | 192.168.0.102   |
 
 2. Open the terminal in the Windows machine, i.e., cmd.exe, program.
-3. From there `ssh` to the *server1* by running: `ssh eecs@192.168.0.100`
-   1. The password for `eecs` user have been posted to you by the instructor.
-   2. Repeat step 1 for server2 and server3 as well.
-   3. At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
+3. From there `ssh` to the *server1* by running: `ssh your_username@192.168.0.100`
+   - The username and password for connecting to *Ubuntu* are **different** than Windows VM. You should have already received this credentials from your instructor as well.
+   - Repeat step 1 for server2 and server3 as well.
+   - At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
 
 <img title="" alt="" src="/images/cmd2.png">
 
@@ -87,4 +87,4 @@ These Ubuntu VMs are the machines that you need to use to do your projects.
 
 ## Next steps
 
-In this tutorial, you accessed a lab using the registration link you got from your educator.  When you are done, close the RDP program so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
+In this tutorial, you accessed a lab using the registration link you got from your educator. Please remember to close close the RDP program when you no longer wants to work on your project so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
