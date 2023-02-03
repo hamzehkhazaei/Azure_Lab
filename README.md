@@ -18,18 +18,15 @@ In this tutorial, you, as a student, connect to a your cluster of virtual machin
 
 1. Navigate to the **registration URL** that you received from the educator. You only have to use the registration URL once to complete the registration.  
 
-<img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
+    <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
 
 2. Sign in using your YorkU account to complete the registration.
-
-<img title="" alt="Enter your York username" src="/images/username.png" width="500" >
-
+   
+   <img title="" alt="Enter your York username" src="/images/username.png" width="500" >
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
-
-<!-- <img title="" alt="Click on Sign in to go to the login page" src="/images/eecs4222-lab.png" width="500" > -->
     
-1. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
+4. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
     2. To its right, you see the icon representing the **operating system (OS)** of the VM. In this example, it's Windows.
     3. The progress bar on the tile shows the number of hours used against the number of [quota hours] assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
@@ -60,7 +57,7 @@ In order to connect to your Cluster head which is a Windows machine do the follo
 3. Open the RDP desktop program and then drag the RDP configuration file toward the program.
 4. You should see a PC created in your RDP Desktop like the following:
    
-   <img title="" alt="" src="/images/rdp1.png">
+    <img title="" alt="" src="/images/rdp1.png">
 
 5. Before starting you VM from RDP desktop make sure your VM is in **Running** state.
 6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password that you already received from the instructor.
@@ -74,8 +71,8 @@ Here you will be connected the Windows VM which in fact acts as the cluster head
  ## Connect to the Ubuntu Servers
 
 1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.
-    
-    <img title="" alt="" src="/images/hyperv.png">
+
+<img title="" alt="" src="/images/hyperv.png">
 
 Here is the information of these three VMs:
 
