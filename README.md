@@ -59,8 +59,8 @@ In order to connect to your Cluster head which is a Windows machine do the follo
    
    <img title="" alt="" src="/images/rdp1.png">
 
-5. Before starting you VM from RDP desktop make sure your VM is in **Running** state.
-6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password that you already received from the instructor.
+5. Before starting you VM from RDP desktop make sure your cluster is in **Running** state.
+6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password. Use `eecs4222M` as both username and password.
    
    <img title="" alt="" src="/images/rdp-login.png" width="500">
 
@@ -83,8 +83,8 @@ Here is the information of these three VMs:
 | server3      | 192.168.0.102   |
 
 2. Open the terminal in the Windows machine, i.e., cmd.exe, program.
-3. From there `ssh` to the *server1* by running: `ssh your_username@192.168.0.100`
-   - The username and password for connecting to *Ubuntu* are **different** than Windows VM. You should have already received this credentials from your instructor as well.
+3. From there `ssh` to the *server1* by running: `ssh eecs@192.168.0.100`
+   - The username and password for connecting to *Ubuntu* are **different** than Windows VM. For Ubuntu servers use `eecs` as both username and password.
    - Repeat step 1 for server2 and server3 as well.
    - At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
 
