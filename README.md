@@ -97,5 +97,5 @@ These Ubuntu VMs are the machines that you need to use to do your projects.
 
 ## Next step
 
-No you can head over to the Project 1 repository to start working on your project here: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
+No you can head over to the Project 1 repository to start working on your project: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
  
