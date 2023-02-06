@@ -92,9 +92,10 @@ Here is the information of these three VMs:
 
 These Ubuntu VMs are the machines that you need to use to do your projects. 
 
-**Note:** In this tutorial, you accessed a lab using the registration link you got from your educator. Please remember to close the RDP program when you no longer wants to work on your project so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
 
-## Next steps
+**Important Note:** Please remember to close the RDP program when you no longer wants to work on your project so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
+
+## Next step
 
 No you can head over to the Project 1 repository to start working on your project here: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
  
