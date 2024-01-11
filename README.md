@@ -60,7 +60,7 @@ In order to connect to your Cluster head which is a Windows machine do the follo
    <img title="" alt="" src="/images/rdp1.png">
 
 5. Before starting you VM from RDP desktop make sure your cluster is in **Running** state.
-6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password. Use `eecs4222M` as both username and password.
+6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password. Use `eecs4222M` as username. You should already know the password from TA or Prof.
    
    <img title="" alt="" src="/images/rdp-login.png" width="500">
 
@@ -97,5 +97,5 @@ These Ubuntu VMs are the machines that you need to use to do your projects.
 
 ## Next step
 
-No you can head over to the Project 1 repository to start working on your project: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
+Now you can head over to the Project 1 repository to start working on your project: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
  
