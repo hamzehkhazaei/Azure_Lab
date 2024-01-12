@@ -18,11 +18,15 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 
 1. Navigate to [https://labs.azure.com](https://labs.azure.com).  
 
-   <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
+   <p align="center">
+      <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
+   </p>
 
 2. Sign in using your YorkU account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
    
-   <img title="" alt="Enter your York username" src="/images/username.png" width="500" >
+   <p align="center">
+      <img title="" alt="Enter your York username" src="/images/username.png" width="500" >
+   </p>
 
 3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
     
@@ -33,69 +37,86 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
     4. You see icons and buttons at the bottom of the tile to start, stop, and connect to the VM.
     5. To the right of the buttons, you see the status of the VM. Confirm that you see the status of the VM is **Stopped**.
         
-   <img title="" alt="" src="/images/lab-stopped.png" width="500" >
+   <p align="center">
+      <img title="" alt="" src="/images/lab-stopped.png" width="500" >
+   </p>
+   
 
 
 ## Start the VM
 
 1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
 
-   <img title="" alt="" src="/images/lab-starting.png" width="500" >
+   <p align="center">
+      <img title="" alt="" src="/images/lab-starting.png" width="500" >
+   </p>
     
 2. Confirm that the status of the VM is set to **Running**.
    
-   <img title="" alt="" src="/images/lab-running.png" width="500" >
+   <p align="center">
+      <img title="" alt="" src="/images/lab-running.png" width="500" >
+   </p>
 
 ## Connect to the Windows VM (Cluster Head)
 In order to connect to your Cluster head which is a Windows machine do the followings:
 
 1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
 
-   <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
+   <p align="center">
+      <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
+   </p>
 
 2. Download and install the RDP Desktop for your laptop. It is available for all operating systems. 
 3. Open the RDP desktop program and then drag the RDP configuration file toward the program.
 4. You should see a PC created in your RDP Desktop like the following:
    
-   <img title="" alt="" src="/images/rdp1.png">
+   <p align="center">
+      <img title="" alt="" src="/images/rdp1.png">
+   </p>
 
 5. Before starting you VM from RDP desktop make sure your cluster is in **Running** state.
 6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password. Use `eecs4222M` as username. You should already know the password from TA or Prof.
    
-   <img title="" alt="" src="/images/rdp-login.png" width="500">
+   <p align="center">
+      <img title="" alt="" src="/images/rdp-login.png" width="500">
+   </p>
 
 Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
 
-   <img title="" alt="" src="/images/win1.png" >
+   <p align="center">
+      <img title="" alt="" src="/images/win1.png" >
+   </p>
 
  ## Connect to the Ubuntu Servers
 
 1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.  
 
-   <img title="" alt="" src="/images/hyperv.png">
+   <p align="center">
+      <img title="" alt="" src="/images/hyperv.png">
+   </p>
 
 Here is the information of these three VMs:
 
 | Name         | IP Address      |
 | :-------     | :------------   |
 | server1      | 192.168.0.100   |
-| server2      | 192.168.0.101   |
-| server3      | 192.168.0.102   |
+| server2      | 192.168.0.103   |
+| server3      | 192.168.0.101   |
+| server4      | 192.168.0.102   |
 
 2. Open the terminal in the Windows machine, i.e., cmd.exe, program.
 3. From there `ssh` to the *server1* by running: `ssh eecs@192.168.0.100`
    - The username and password for connecting to *Ubuntu* are **different** than Windows VM. For Ubuntu servers use `eecs` as both username and password.
-   - Repeat step 1 for server2 and server3 as well.
-   - At this point you should have 3 terminal attached to your 3 Ubuntu VMs as the picture bellow.
+   - Repeat step 1 for server2, server3 and server4 as well.
+   - At this point you should have 4 terminal attached to your 4 Ubuntu VMs as the picture bellow.
+   - You can see all the allocated and used resources for each VM at the beginning of the session (i.e., hard disk).
 
-   <img title="" alt="" src="/images/cmd2.png">
+   <p align="center">
+      <img title="" alt="" src="/images/cmd2.png">
+   </p>
 
 These Ubuntu VMs are the machines that you need to use to do your projects. 
 
 
 **Important Note:** Please remember to close the RDP program when you no longer wants to work on your project so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
-
-## Next step
-
-Now you can head over to the Project 1 repository to start working on your project: [https://github.com/hamzehkhazaei/EECS4222_Project_1](https://github.com/hamzehkhazaei/EECS4222_Project_1).
  
