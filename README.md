@@ -16,7 +16,7 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 
 ## Register to the lab
 
-1. Navigate to [https://labs.azure.com](https://labs.azure.com).  
+1. Navigate to the Registration link in the email you received from Microsoft Azure.  
 
    <p align="center">
       <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
