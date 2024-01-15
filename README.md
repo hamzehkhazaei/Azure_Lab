@@ -16,21 +16,23 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 
 ## Register to the lab
 
-1. Navigate to the Registration link in the email you received from Microsoft Azure.  
+1. Navigate to the Registration link in the email you received from Microsoft Azure.
+2. Register using your **YorkU** account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
+
+3. If you already are a user, sign in using your YorkU account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
 
    <p align="center">
       <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
    </p>
 
-2. Sign in using your YorkU account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
    
    <p align="center">
       <img title="" alt="Enter your York username" src="/images/username.png" width="500" >
    </p>
 
-3. Once registered, confirm that you see the virtual machine for the lab you have access to.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
+4. Once registered, confirm that you see the virtual machine for the lab you can access.  Now that you have registered, you can go directly to the Azure Lab Services portal at [https://labs.azure.com](https://labs.azure.com) in the future.
     
-4. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
+5. Wait until the virtual machine is ready. On the VM tile, notice the following fields:
     1. At the top of the tile, you see the **name of the lab**.
     2. To its right, you see the icon representing the **operating system (OS)** of the VM. In this example, it's Windows.
     3. The progress bar on the tile shows the number of hours used against the number of [quota hours] assigned to you. Quota time is time you have in addition to the scheduled time for the lab.
@@ -45,22 +47,22 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 
 ## Start the VM
 
-1. **Start** the VM by selecting the toggle button as shown in the following image. This process takes some time.  
+1. **Start** the VM by selecting the toggle button, as shown in the following image. This process takes some time.  
 
    <p align="center">
       <img title="" alt="" src="/images/lab-starting.png" width="500" >
    </p>
     
-2. Confirm that the status of the VM is set to **Running**.
+2. Confirm that the VM status is set to **Running**.
    
    <p align="center">
       <img title="" alt="" src="/images/lab-running.png" width="500" >
    </p>
 
 ## Connect to the Windows VM (Cluster Head)
-In order to connect to your Cluster head which is a Windows machine do the followings:
+To connect to your Cluster head, which is a Windows machine do the following:
 
-1. Select the button in the lower right of the tile as shown in the following image to download the RDP configuration file. This file will be used in RDP desktop program to get connected to the VM. 
+1. Select the button in the lower right of the tile, as shown in the following image, to download the RDP configuration file. This file will be used in the RDP desktop program to get connected to the VM. 
 
    <p align="center">
       <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
@@ -75,7 +77,7 @@ In order to connect to your Cluster head which is a Windows machine do the follo
    </p>
 
 5. Before starting you VM from RDP desktop make sure your cluster is in **Running** state.
-6. Then double click on the new remote PC that you created in RDP desktop. It should ask for username and password. Use `eecs4222M` as username. You should already know the password from TA or Prof.
+6. Double-click on the new remote PC you created on the RDP desktop. It should ask for a username and password. Use `eecs4222M` as your username. You should already know the password from TA or Prof.
    
    <p align="center">
       <img title="" alt="" src="/images/rdp-login.png" width="500">
@@ -118,5 +120,5 @@ Here is the information of these three VMs:
 These Ubuntu VMs are the machines that you need to use to do your projects. 
 
 
-**Important Note:** Please remember to close the RDP program when you no longer wants to work on your project so that all your cluster be shutdown after a short time. This way you are not going to lose your quota while not working on your project.
+**Important Note:** Please remember to close the RDP program when you no longer want to work on your project so that all your clusters can be shut down after a short time. This way, you will not lose your quota while not working on your project.
  
