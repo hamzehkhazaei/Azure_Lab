@@ -19,7 +19,7 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 1. Navigate to the Registration link in the email you received from Microsoft Azure.
 2. Register using your **YorkU** account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
 
-3. If you already are a user, sign in using your YorkU account, i.e., `user@yorku.ca` and your `PPY` password to complete the registration.
+3. If you already are a user, sign in using your YorkU account, i.e., `user@yorku.ca` and your `PPY` password.
 
    <p align="center">
       <img title="" alt="Click on Sign in to go to the login page" src="/images/login.png" >
