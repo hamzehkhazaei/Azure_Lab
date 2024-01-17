@@ -58,7 +58,7 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
    </p>
 
 ## Connect to the Windows VM (Cluster Head)
-To connect to your Cluster head, which is a Windows machine do the following:
+To connect to your Cluster head, which is a Windows machine, do the following:
 
 1. Select the button in the lower right of the tile, as shown in the following image, to download the RDP configuration file. This file will be used in the RDP desktop program to get connected to the VM. 
 
@@ -66,22 +66,22 @@ To connect to your Cluster head, which is a Windows machine do the following:
       <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
    </p>
 
-2. Download and install the RDP Desktop for your laptop. It is available for all operating systems. 
-3. Open the RDP desktop program and then drag the RDP configuration file toward the program.
-4. You should see a PC created in your RDP Desktop like the following:
+2. Download and install the Microsoft Remote Desktop (MRD) for your laptop. It is available for all operating systems. 
+3. Open the MRD program and drag the configuration file toward the program.
+4. You should see a PC created in your MRD like the following:
    
    <p align="center">
       <img title="" alt="" src="/images/rdp1.png">
    </p>
 
-5. Before starting you VM from RDP desktop make sure your cluster is in **Running** state.
-6. Double-click on the new remote PC you created on the RDP desktop. It should ask for a username and password. Use `eecs4222M` as your username. You should already know the password from TA or Prof.
+5. Before starting your VM from MRD, ensure your cluster is in **Running** state.
+6. Double-click on the new remote PC you created on the MRD. It should ask for a username and password. Use `eecs4222M` as your username. You should already know the password from the eClass post.
    
    <p align="center">
       <img title="" alt="" src="/images/rdp-login.png" width="500">
    </p>
 
-Here you will be connected the Windows VM which in fact acts as the cluster head. Using this cluster head we can get access to the Ubuntu VMs that are the one that you will use for the project.
+Here, you will be connected to the Windows VM, which acts as the cluster head. Using this cluster head, we can get access to the Ubuntu VMs that are the ones that you will use for the project.
 
    <p align="center">
       <img title="" alt="" src="/images/win1.png" >
@@ -89,13 +89,13 @@ Here you will be connected the Windows VM which in fact acts as the cluster head
 
  ## Connect to the Ubuntu Servers
 
-1. On the Windows machine's desktop you will see a program name ***Hyper-V Manager***. Open that program and then you should be able to see three Ubuntu VMs that are running, like the following picture.  
+1. On the Windows machine's desktop, you will see a program named ***Hyper-V Manager***. Open that program, and then you should be able to see three Ubuntu VMs that are running, like the picture below.  
 
    <p align="center">
       <img title="" alt="" src="/images/hyperv.png">
    </p>
 
-Here is the information of these three VMs:
+Here is the information on these three VMs:
 
 | Name         | IP Address      |
 | :-------     | :------------   |
@@ -106,9 +106,9 @@ Here is the information of these three VMs:
 
 2. Open the terminal in the Windows machine, i.e., cmd.exe, program.
 3. From there `ssh` to the *server1* by running: `ssh eecs@192.168.0.100`
-   - The username and password for connecting to *Ubuntu* are **different** than Windows VM. For Ubuntu servers use `eecs` as both username and password.
+   - The username and password for connecting to *Ubuntu* are **different** than Windows VM. For Ubuntu servers, use `eecs` as both username and password.
    - Repeat step 1 for server2, server3 and server4 as well.
-   - At this point you should have 4 terminal attached to your 4 Ubuntu VMs as the picture bellow.
+   - At this point, you should have 4 terminals attached to your 4 Ubuntu VMs, as shown in the picture below.
    - You can see all the allocated and used resources for each VM at the beginning of the session (i.e., hard disk).
 
    <p align="center">
@@ -118,5 +118,5 @@ Here is the information of these three VMs:
 These Ubuntu VMs are the machines that you need to use to do your projects. 
 
 
-**Important Note:** Please remember to close the RDP program when you no longer want to work on your project so that all your clusters can be shut down after a short time. This way, you will not lose your quota while not working on your project.
+**Important Note:** Please remember to close the RDP program when you no longer want to work on your project so that all your clusters can be shut down quickly. This way, you will not lose your quota while not working on your project.
  
