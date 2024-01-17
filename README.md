@@ -60,7 +60,7 @@ In this tutorial, you, as a student, connect to your cluster of virtual machines
 ## Connect to the Windows VM (Cluster Head)
 To connect to your Cluster head, which is a Windows machine, do the following:
 
-1. Select the button in the lower right of the tile, as shown in the following image, to download the RDP configuration file. This file will be used in the RDP desktop program to get connected to the VM. 
+1. Select the button in the lower right of the tile, as shown in the following image, to download the RDP configuration file. The MRD program will use this file to connect to the VM. 
 
    <p align="center">
       <img title="" alt="Download the RDP config file" src="/images/lab-rdp.png" width="500" >
